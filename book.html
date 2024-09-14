@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+    
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+
+    <title> Little Lemon </title>
+    <meta name = "author" content = "Claudia Cardaci">
+    <meta name = "description" content = "Little Lemon homepage">
+
+    <link rel = "stylesheet" href = "styles.css">
+
+</head>
+<body class = "bookpage">
+
+<header> 
+    <a href = "index.html">
+    <img src = "logo.png" alt="restaurant logo">
+</a>
+    
+</header>
+
+<nav> 
+
+  
+    <ul>
+        <li> <a href = "index.html"> Home </a> </li>
+        <li> <a href = "menù.html"> Menù </a> </li>
+        <li> <a href = "book.html" class = "active"> Book </a> </li>
+        <li> <a href = "about.html"> About </a> </li>
+      
+
+
+    </ul>
+</nav>
+
+<main>
+
+    <section>
+        <div>
+            <h1> Book a table </h1>
+        </div>
+    </section>
+
+
+    <section>
+
+        <form method = "post" class = "boxform">
+            <div class = "form_group">
+
+                <label for = "fname"> Name </label> <br>
+                <input type = "text" id="fname" name = "fname" autocomplete="given-name" required> <br> <br>
+            </div>
+
+            <div class = "form_group">
+
+            
+                <label for = "lastname"> Last name </label> <br> 
+                <input type = "text" id = "lastname" name="lastname" autocomplete= "family-name" required> <br> <br>
+            </div>
+
+            <div class = "form_group">
+
+        
+                <label for = "email"> Email</label> <br> 
+                <input type = "email" id = "email" name = "email" autocomplete = "email" required> <br> <br>
+
+            </div>
+
+            <div class = "form_group">
+                <label for = "telnum"> Telephone</label> <br> 
+                <input type = "tel" id = "telnum" name = "telnum" pattern="[+]{1}39[0-9]{9,10}" autocomplete = "tel" required> <br> <br>
+            </div>
+
+            <div class = "form_group">
+                <label for = "dob"> Day of booking</label> <br> 
+                <input type = "date" id = "dob" name = "dob" autocomplete = "bday" required> <br> <br> 
+            </div>
+
+            <div class = "form_group">
+                <label for = "hour"> Time</label> <br> 
+                <input type = "time" id = "hour" name = "hour"
+                min = "18:00" max = "21:30" step = "1800" autocomplete = "off" required> <br> <br>
+            </div>
+            <div class = "form_group">
+
+                <label for = "numofpeople"> Total number of people</label> <br> 
+                <input type = "number" id = "numofpeople" name = "numofpeople" min = "1" autocomplete = "off" required> <br> <br>
+            </div>
+            <div class = "form_group">
+
+                <label for = "kids"> Indicate number of children</label> <br> 
+                <input type = "number" id = "kids" name = "kids" min = "0" autocomplete="off"> <br> <br>
+            </div>
+
+
+            <div class = "form_group">
+            
+                <label> Choose location </label> <br>
+        </div>
+
+        <div class = "radio_container">
+
+                    <label for = "location_indoor">
+                        <input type = "radio" value ="indoors" id = "location_indoor" name = "location" autocomplete="off" checked> Indoors
+                    </label>
+
+                    <label for = "location_outdoor">
+                        <input type = "radio" value ="outdoors" id = "location_outdoor" name ="location" autocomplete="off"> Outdoors
+                    </label> 
+                        
+                    
+        </div>
+        <br> <br>
+            <div class = "form_group">
+                <label for = "notes"> Additional notes</label> <br> 
+                <textarea  id = "notes" name = "notes" rows= "10" cols = "30" autocomplete="off">
+
+                </textarea>
+                <br>
+
+
+                  <div>
+                    <button type = "submit"> Book now</button>
+                  </div>
+                  <br> <br>
+                  
+      
+
+
+            </form>
+
+        </section>
+    </main>
+            
+
+    <footer> 
+        <div> 
+            <img src = "logo.png" alt = "restaurant logo">
+        </div>
+                
+        <div> 
+            <hr>
+            <p> Copyright Little Lemon</p>
+        </div>
+    </footer>
+
+
+    
+
+
+    
+                
+    </body>
+                
+    </html>   
+
+
+                
+
+                
+            
+
+
+
+       
