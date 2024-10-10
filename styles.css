@@ -223,7 +223,7 @@
 }
 
 
-@media (max-width: 2000px) {
+@media (max-width: 1280px) {
     .homepage article {
       width: 100%;
       height: auto;
@@ -430,7 +430,7 @@
 }
 
 
-@media (max-width: 2000px) {
+@media (max-width: 1280px) {
     .menu_page .box1 {
       width: 100%;
       height: auto;
@@ -902,7 +902,7 @@
 
 
 
-@media (max-width: 2000px) {
+@media (max-width: 1280px) {
     .aboutpage .carousel {
       width: 100%;
       height: auto;
@@ -914,7 +914,7 @@
   }
 
 
-  @media (max-width: 2000px) {
+  @media (max-width: 1280px) {
     .aboutpage .container {
    flex-direction: column;
     }
@@ -922,7 +922,7 @@
 }
 
 
-@media (max-width: 2000px) {
+@media (max-width: 1280px) {
     .aboutpage .box_container {
       width: 100%;
       height: auto;
@@ -934,7 +934,7 @@
   }
 
 
-  @media (max-width: 2000px) {
+  @media (max-width: 1280px) {
     .aboutpage .box {
       width: 100%;
       height: auto;
