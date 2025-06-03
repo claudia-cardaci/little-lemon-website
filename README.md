@@ -1,6 +1,6 @@
 # Little Lemon restaurant website
 
-This project is a website for a fictional restaurant, named **Little Lemon**. The website is designed with a focus on **responsiveness**, **client-side form validation**, **interactive animations**, and **accessibility**, using **HTML**, **CSS**, and **JavaScript**. The goal is to create a user-friendly site that is **easy to navigate**, **clear**, and **intuitive**, with a simple design that reflects the restaurant's character—combining simplicity with a touch of innovation.
+This project is a website for a fictional restaurant, named **Little Lemon**. The website is designed with a focus on **responsiveness**, **client-side form validation**, **interactive animations**, and **accessibility**, using **HTML** and **CSS**. The goal is to create a user-friendly site that is **easy to navigate**, **clear**, and **intuitive**, with a simple design that reflects the restaurant's character—combining simplicity with a touch of innovation.
 
 ### Features
 - **Responsive design**: adapts seamlessly across different devices (desktop, tablet, mobile).
