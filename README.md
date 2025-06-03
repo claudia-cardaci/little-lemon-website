@@ -6,7 +6,7 @@ This project is a website for a fictional restaurant, named **Little Lemon**. Th
 - **Responsive design**: adapts seamlessly across different devices (desktop, tablet, mobile).
 - **Client-side form validation**: ensures a smooth user experience with real-time feedback on input fields.
 - **Interactive animations**: adds dynamism to the website, enhancing the user experience without overwhelming the interface.
-- **Accessibility**: follows practices for accessibility, ensuring the website is usable for people with disabilities.
+- **Accessibility**: follows practices for accessibility.
 
 ### Pages Overview
 - **Homepage**: Features a hero image with a welcoming message.
