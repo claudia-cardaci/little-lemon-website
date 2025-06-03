@@ -1,5 +1,5 @@
 
-const slidesContainer = document.querySelector('.aboutpage .slides');
+/*const slidesContainer = document.querySelector('.aboutpage .slides');
 const slides = document.querySelectorAll('.aboutpage .slide');
 const boxes = document.querySelectorAll('.box');
 let currentIndex = 0;
@@ -42,4 +42,14 @@ document.querySelector('.aboutpage .next').addEventListener('click', nextSlide);
 document.querySelector('.aboutpage .prev').addEventListener('click', prevSlide);
 
 // Inizializza la prima slide e il box corrispondente
-showSlide(currentIndex);
+showSlide(currentIndex);*/
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const hamburger = document.querySelector('.hamburger');
+  const navLinks = document.querySelector('.nav-links');
+
+  hamburger.addEventListener('click', function () {
+    navLinks.classList.toggle('active');
+  });
+});

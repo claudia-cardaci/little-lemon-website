@@ -13,11 +13,41 @@
     <meta name = "description" content = "Little Lemon homepage">
 
     <link rel = "stylesheet" href = "styles.css">
+  
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    
 
 </head>
 <body class = "bookpage">
 
-<header> 
+    <header>
+
+        <nav class="navbar">
+        <!--<div class="logo">🍋 Little Lemon</div> -->
+        <div class = "logo">
+            <img src ="logo.png" alt="restaurant logo">
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menù.html">Menu</a></li>
+          <li><a href="book.html"class = "active">Book</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contacts.html">Info & Contacts</a></li>
+        </ul>
+        <div class="spacer"></div>
+        
+        
+        <button class="hamburger"><i class="fas fa-bars"></i></button>
+
+     </nav>
+
+        
+
+    </header>
+
+
+<!--<header> 
     <a href = "index.html">
     <img src = "logo.png" alt="restaurant logo">
 </a>
@@ -36,7 +66,7 @@
 
 
     </ul>
-</nav>
+</nav> -->
 
 <main>
 
@@ -44,10 +74,10 @@
         <div>
             <h1> Book a table </h1>
         </div>
-    </section>
+    
 
 
-    <section>
+    
 
         <form method = "post" class = "boxform">
             <div class = "form_group">
@@ -136,9 +166,18 @@
 
         </section>
     </main>
+
+    <footer class="footer">
+  <div class="footer-content">
+    <img src="logo_black.png" alt="Little Lemon logo" class="footer-logo" >
+    <p class="copyright">© Little Lemon</p>
+  </div>
+</footer>
+
+    
             
 
-    <footer> 
+   <!-- <footer> 
         <div> 
             <img src = "logo.png" alt = "restaurant logo">
         </div>
@@ -147,7 +186,10 @@
             <hr>
             <p> Copyright Little Lemon</p>
         </div>
-    </footer>
+    </footer> -->
+
+     <script src="script.js"></script>
+
 
 
     

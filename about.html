@@ -12,11 +12,31 @@
     <meta name = "description" content = "Little Lemon homepage">
 
     <link rel = "stylesheet" href = "styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
 </head>
 <body class = "aboutpage">
+  <header>
+   <nav class="navbar">
+        <!--<div class="logo">🍋 Little Lemon</div> -->
+        <div class = "logo">
+            <img src ="logo.png" alt="restaurant logo">
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menù.html">Menu</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="contacts.html">Info & Contacts</a></li>
+        </ul>
+        <div class="spacer"></div>
 
-<header> 
+          <button class="hamburger"><i class="fas fa-bars"></i></button> 
+      </nav>
+
+      </header>
+
+<!--<header> 
     <a href = "index.html">
     <img src = "logo.png" alt="restaurant logo">
 </a>
@@ -34,12 +54,16 @@
 
 
     </ul>
-</nav>
+</nav> -->
 
 <main>
 
    <section>
-<div class = "container">
+
+    <div>
+     <h1> About </h1> 
+    </div>
+<!--<div class = "container">
 
     <div class="carousel">
       
@@ -62,49 +86,59 @@
     
     <button class="prev">&#8249;</button>
     <button class="next">&#8250;</button>
-  </div>
+  </div> 
 
 
 
    
 
   <div class = "box_container">
-  <article class = "box active-box">
+  <article class = "box active-box"> -->
+    <div class = "box_container">
+    <article class = "box_1">
+      <div class="text">
 
     <h2> Who we are </h2>
+    
     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor suscipit scelerisque. Proin mauris velit, vulputate vulputate arcu sed, efficitur volutpat ante. Vestibulum convallis, turpis eget sagittis maximus, erat mauris elementum tortor, in consequat mi eros sed arcu. Mauris nec venenatis elit. Mauris pretium rutrum nibh, non venenatis justo ultrices eu.
-      <br><br> Fusce aliquet euismod magna, at auctor lacus feugiat ac. Donec consequat felis non nibh volutpat, eget mattis elit fringilla. Aenean viverra felis risus, at lobortis elit placerat vulputate. Integer tincidunt diam tellus, vehicula ornare nisl volutpat sed. Mauris molestie viverra mi, et lobortis dui. Aenean at tortor sit amet lectus pellentesque blandit. Nullam dapibus turpis eget est facilisis maximus sed id eros. Donec eget est posuere, semper turpis ut, tincidunt est.
-      <br><br>Praesent faucibus ipsum elit. Etiam fringilla vulputate turpis, eu molestie eros bibendum id. Donec auctor ante vel maximus vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam eleifend nunc nisi, vitae posuere sapien pretium sed.
+      Fusce aliquet euismod magna, at auctor lacus feugiat ac.
     </p>
+      </div>
+     <img src = "images/about.jpg" width="700px" height="400px" alt = "who we are photo">
   </article>
-  <article class = "box">
+  <article class = "box_1">
+    <div class = "text">
     <h2> The restaurant</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor suscipit scelerisque. Proin mauris velit, vulputate vulputate arcu sed, efficitur volutpat ante. Vestibulum convallis, turpis eget sagittis maximus, erat mauris elementum tortor, in consequat mi eros sed arcu. Mauris nec venenatis elit. Mauris pretium rutrum nibh, non venenatis justo ultrices eu.
-      <br><br> Fusce aliquet euismod magna, at auctor lacus feugiat ac. Donec consequat felis non nibh volutpat, eget mattis elit fringilla. Aenean viverra felis risus, at lobortis elit placerat vulputate. Integer tincidunt diam tellus, vehicula ornare nisl volutpat sed. Mauris molestie viverra mi, et lobortis dui. Aenean at tortor sit amet lectus pellentesque blandit. Nullam dapibus turpis eget est facilisis maximus sed id eros. Donec eget est posuere, semper turpis ut, tincidunt est.
-      <br><br>Praesent faucibus ipsum elit. Etiam fringilla vulputate turpis, eu molestie eros bibendum id. Donec auctor ante vel maximus vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam eleifend nunc nisi, vitae posuere sapien pretium sed.
+      Fusce aliquet euismod magna, at auctor lacus feugiat ac.
     </p>
+    </div>
+    <img src = "images/about1.jpg" width="700px" height="400px" alt = "photo of the restaurant">
+
   </article>
-  <article class = "box">
+  <article class = "box_1">
+    <div class = "text">
     <h2> Our philosophy</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas auctor suscipit scelerisque. Proin mauris velit, vulputate vulputate arcu sed, efficitur volutpat ante. Vestibulum convallis, turpis eget sagittis maximus, erat mauris elementum tortor, in consequat mi eros sed arcu. Mauris nec venenatis elit. Mauris pretium rutrum nibh, non venenatis justo ultrices eu.
-      <br><br> Fusce aliquet euismod magna, at auctor lacus feugiat ac. Donec consequat felis non nibh volutpat, eget mattis elit fringilla. Aenean viverra felis risus, at lobortis elit placerat vulputate. Integer tincidunt diam tellus, vehicula ornare nisl volutpat sed. Mauris molestie viverra mi, et lobortis dui. Aenean at tortor sit amet lectus pellentesque blandit. Nullam dapibus turpis eget est facilisis maximus sed id eros. Donec eget est posuere, semper turpis ut, tincidunt est.
-      <br><br>Praesent faucibus ipsum elit. Etiam fringilla vulputate turpis, eu molestie eros bibendum id. Donec auctor ante vel maximus vulputate. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam eleifend nunc nisi, vitae posuere sapien pretium sed. </p>
+      Fusce aliquet euismod magna, at auctor lacus feugiat ac.
+   </p>
+   </div>
+   <img src = "images/about2.jpg" width="700px" height="400px" alt = "photo of the restaurant">
+
   </article>
   </div>
-  <article>
 
-  </div>
 
-  <article>
+  <!--<article class = "contacts">
     <h3> Contacts</h3>
     <p> telephone: 055 87 60 009 / 334 67 90 881 <br>
   e-mail: littlelemon@gmail.com</p> 
   </article> 
-  <article>
+  <article class = "position">
     <h3> Where we are</h3>
-    <p> Route 6066, Florence</p>
+    <p> Route 6066, Florence</p> -->
 
-  </article>
+
 
 
 
@@ -113,8 +147,15 @@
 
 </main>
 
+<footer class="footer">
+  <div class="footer-content">
+    <img src="logo_black.png" alt="Little Lemon logo" class="footer-logo" >
+    <p class="copyright">© Little Lemon</p>
+  </div>
+</footer>
 
-<footer> 
+
+<!--<footer> 
   <div> 
       <img src = "logo.png" alt = "restaurant logo">
   </div>
@@ -125,7 +166,9 @@
   </div>
 </footer>
 
-<script src="script.js"></script>
+<script src="script.js"></script> -->
+
+<script src="script.js"></script> 
 
 </body>
 

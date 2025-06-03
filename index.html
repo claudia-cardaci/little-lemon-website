@@ -12,46 +12,109 @@
     <meta name = "description" content = "Little Lemon homepage">
 
     <link rel = "stylesheet" href = "styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+
 
 </head>
 <body class = "homepage">
 
-<header> 
-    <a href = "index.html">
-    <img src = "logo.png" alt="restaurant logo">
-</a>
-</header>
+    <nav class="navbar">
+        <!--<div class="logo">🍋 Little Lemon</div> -->
+        <div class = "logo">
+            <img src ="logo.png" alt="restaurant logo">
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html" class = "active">Home</a></li>
+          <li><a href="menù.html">Menu</a></li>
+          <li><a href="book.html">Book</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contacts.html">Info & Contacts</a></li>
+          
+        </ul>
+        <div class="spacer"></div>
 
-<nav> 
-
-  
-    <ul>
-        <li> <a href = "index.html" class = "active"> Home </a> </li>
-        <li> <a href = "menù.html"> Menù </a> </li>
-        <li> <a href = "book.html"> Book </a> </li>
-        <li> <a href = "about.html"> About </a> </li>
-      
-
-
-    </ul>
-</nav>
+        <button class="hamburger"><i class="fas fa-bars"></i></button>
 
 
+         
+      </nav>
 
 
-    <section> 
-        <article class = "box1">
-            
-            <h1> Welcome to the Little Lemon restaurant </h1>
-            <h2>  Where tradition and innovation meet in a unique and original mix of flavours </h2>
-        </article>
-    </section>
+    <header class = "hero">
 
-    <section>
-        <article class = "box">
+        <div class = "hero_content">
+            <h1>Welcome to the Little Lemon Restaurant</h1>
+            <h2>Where tradition meets innovation</h2>
+        </div>
+
+
+
+    </header>
+        
+
+
+
+
+
+
+
+    <section class="feature-section">
+        <div class = "feature-row">
+            <div class = "text-content">
+               <h2> Tradition </h2>
+               <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultrices mi non eros sagittis malesuada placerat eget dolor. 
+                Nulla nulla arcu, bibendum aliquam arcu pharetra, fringilla pulvinar nisi. Nunc elit velit, vestibulum id massa eget, pretium imperdiet sem. 
+                In faucibus et mauris et malesuada. Pellentesque mattis feugiat ante, sit amet lacinia quam laoreet sed. Vestibulum a tristique neque. 
+                Nam tempor, mauris at ultrices convallis, turpis diam laoreet libero, vulputate aliquet metus ante et erat. 
+                Donec elementum lacus id dolor placerat auctor. Morbi quis aliquet magna, sed dapibus dui. Curabitur non faucibus augue. 
+                Nunc varius sagittis quam, non bibendum purus aliquet ac. Suspendisse vulputate ligula sit amet ante porttitor aliquam. 
+                Donec odio ipsum, efficitur sit amet justo sit amet, gravida tristique lectus.</p> 
+            </div>
+            <div class = "image-content">
+                <img src = "images/Freselle semintegrali friabili e croccanti.jpg" alt="traditional dish">
+            </div>
+        </div>
+
+        <div class = "feature-row-reverse">
+            <div class = "text-content">
+                <h2> Innovation </h2>
+                <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultrices mi non eros sagittis malesuada placerat eget dolor. 
+                Nulla nulla arcu, bibendum aliquam arcu pharetra, fringilla pulvinar nisi. Nunc elit velit, vestibulum id massa eget, pretium imperdiet sem. 
+                In faucibus et mauris et malesuada. Pellentesque mattis feugiat ante, sit amet lacinia quam laoreet sed. Vestibulum a tristique neque. 
+                Nam tempor, mauris at ultrices convallis, turpis diam laoreet libero, vulputate aliquet metus ante et erat. 
+                Donec elementum lacus id dolor placerat auctor. Morbi quis aliquet magna, sed dapibus dui. Curabitur non faucibus augue. 
+                Nunc varius sagittis quam, non bibendum purus aliquet ac. Suspendisse vulputate ligula sit amet ante porttitor aliquam. 
+                Donec odio ipsum, efficitur sit amet justo sit amet, gravida tristique lectus.
+            </div>
+            <div class = "image-content">
+                 <img src = "images/The art of plating at ONE.jpg">
+            </div>
+        </div>
+
+        <div class = "feature-row">
+            <div class = "text-content">
+               <h2> Freshness </h2>
+               <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ultrices mi non eros sagittis malesuada placerat eget dolor. 
+                Nulla nulla arcu, bibendum aliquam arcu pharetra, fringilla pulvinar nisi. Nunc elit velit, vestibulum id massa eget, pretium imperdiet sem. 
+                In faucibus et mauris et malesuada. Pellentesque mattis feugiat ante, sit amet lacinia quam laoreet sed. Vestibulum a tristique neque. 
+                Nam tempor, mauris at ultrices convallis, turpis diam laoreet libero, vulputate aliquet metus ante et erat. 
+                Donec elementum lacus id dolor placerat auctor. Morbi quis aliquet magna, sed dapibus dui. Curabitur non faucibus augue. 
+                Nunc varius sagittis quam, non bibendum purus aliquet ac. Suspendisse vulputate ligula sit amet ante porttitor aliquam. 
+                Donec odio ipsum, efficitur sit amet justo sit amet, gravida tristique lectus.</p> 
+            </div>
+            <div class = "image-content">
+                <img src = "images/download (32).jpg" alt="traditional dish">
+            </div>
+        </div>
+
+
+
+
+        <!--<article class = "box">
             <h2> Our Menù</h2>
             <img src = "images/menù.jpg" height="300px" width = "300px" alt = "menù image">
-            <p> Nulla rhoncus sem sit amet volutpat scelerisque. Duis rutrum magna nec rutrum commodo. Aenean imperdiet diam lectus, non ornare elit imperdiet sit amet. Vivamus efficitur mi id risus varius congue. Nam et maximus nulla.</p>
+            
             <a href = "menù.html" class = "button"> See our menù</a>
         </article>
     
@@ -59,26 +122,31 @@
         <article class = "box">
             <h2> Book a table </h2>
             <img src = "images/book.jpg" height = "300px" width = "300px" alt ="book image">
-            <p> Nulla rhoncus sem sit amet volutpat scelerisque. Duis rutrum magna nec rutrum commodo. Aenean imperdiet diam lectus, non ornare elit imperdiet sit amet. Vivamus efficitur mi id risus varius congue. Nam et maximus nulla. </p>
+            
             <a href = "book.html" class = "button"> Book a table</a>
         </article>
     
 
     
         <article class = "box">
-            <h2> Opening hours </h2>
+            <h2> Our history </h2>
             <img src = "images/hours.jpg" height = "300px" width = "300px" alt = "hours image">
-            <p> Nulla rhoncus sem sit amet volutpat scelerisque. Duis rutrum magna nec rutrum commodo. Aenean imperdiet diam lectus, non ornare elit imperdiet sit amet. Vivamus efficitur mi id risus varius congue. Nam et maximus nulla.</p>
-            <p> <b>Mon-Fri : 12pm - 15pm / 19pm - 23pm </b> </p>
-            <p> <b> Sat-Sun: 19pm - 23pm </b> </p> 
+            
+            <a href="about.html" class ="button"> Read our story </a> 
 
-        </article>
+        </article> -->
     </section>
 </main>
+<footer class="footer">
+  <div class="footer-content">
+    <img src="logo_black.png" alt="Little Lemon logo" class="footer-logo" >
+    <p class="copyright">© Little Lemon</p>
+  </div>
+</footer>
 
 
 
-<footer> 
+<!--<footer> 
     <div> 
         <img src = "logo.png" alt = "restaurant logo">
     </div>
@@ -87,7 +155,9 @@
         <hr>
         <p> Copyright Little Lemon</p>
     </div>
-</footer>
+</footer> -->
+
+<script src="script.js"></script>
 
 </body>
 
