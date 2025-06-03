@@ -22,7 +22,6 @@ Open the ```index.html``` file to run the project.
 ### Techonologies used 
 - **HTML**: for structuring the content
 - **CSS**: for responsive layouts, styles, and animations
-- **Javascript**: for interactive elements 
 
 
 
